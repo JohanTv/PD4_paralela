@@ -1,4 +1,4 @@
 make:
-	g++ -fopenmp main.cpp
+	g++-11 -fopenmp main.cpp
 	./a.out
 	rm a.out
